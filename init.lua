@@ -5,7 +5,7 @@ end)
 
 -- Iterm2 automation
 
-hs.hotkey.bind({"shift", "cmd"}, "S", function()
+hs.hotkey.bind({"shift", "ctrl"}, "D", function()
     local spawnNewTerminal = [[
         tell application "iTerm2"
             create window with default profile
