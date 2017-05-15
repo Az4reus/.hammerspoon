@@ -1,8 +1,3 @@
-hs.hotkey.bind({"ctrl", "alt", "cmd"}, "H", function()
-    hs.notify.new({title="Welcome to hammerspoon and such",
-        informativeText="Hello World and all that shit"}):send()
-end)
-
 hs.hotkey.bind({"shift", "ctrl"}, "R", function()
     hs.reload()
     hs.notify.new({title="Config reloaded"}):send()
